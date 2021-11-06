@@ -1,0 +1,7 @@
+<div class="container">
+  <div class="box">Hello, {{ speak() }} !</div>
+  <div class="box" *ngFor="let animal of animals">
+    A {{ animal.species }} can {{ animal.sound }} and has
+    {{ animal.number_of_legs }} legs.
+  </div>
+</div>
